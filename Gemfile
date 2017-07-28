@@ -57,4 +57,4 @@ gem 'devise', '~> 4.3'
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'jquery-rails'
 
-gem 'sapper_view_tool', git: 'https://github.com/steven-james-rmr/sapper_view_tool'
+gem 'sapper_view_tool', '~> 0.1.0'
