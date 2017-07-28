@@ -56,3 +56,5 @@ gem 'friendly_id', '~> 5.2', '>= 5.2.1'
 gem 'devise', '~> 4.3'
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'jquery-rails'
+
+gem 'sapper_view_tool', git: 'https://github.com/steven-james-rmr/sapper_view_tool'

@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source_greeting")
     end 
   end
+
+  def copyright_generator
+    SapperViewTool::Renderer.copyright 'Steven James', 'All Rights Reserved'
+  end  
 end
