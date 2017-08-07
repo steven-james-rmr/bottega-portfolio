@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -9,7 +8,6 @@
     <%= csrf_meta_tags %>
 
     <meta name="keywords" content="<%= @seo_keywords %>" />
-
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -20,8 +18,15 @@
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
-          <div id="background"></div>
-
+          <%= video_tag(
+              'farm.winter.mp4',
+              id: 'background',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: 'farm.winter.png'
+            ) 
+            %>
             <%= render "shared/application_nav" %>
             <%= yield %>
             <%= render "shared/application_footer" %>
