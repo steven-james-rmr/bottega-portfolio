@@ -1,6 +1,6 @@
 @import "bootstrap";
 @import "gritter";
-
+@import "font-awesome";
 /*
  * Globals
  */
@@ -232,6 +232,40 @@ body {
   padding-top: 50px;
 }
 
+.app-card-container {
+  color: black;
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.app-card-container > .card {
+  padding: 40px;
+}
 
+.profile-img {
+  border: 4px solid black;
+}
 
+.app-card-container a {
+  color: blue;
+  text-align: right;
+}
+
+.social-media {
+  font-size: 2.5em;
+  padding: 10px;
+}
+
+.fa-facebook {
+  padding: 10px;
+}
+
+.fa-linkedin {
+  padding: 10px;
+}
+
+.fa-twitter {
+  padding: 10px;
+}
