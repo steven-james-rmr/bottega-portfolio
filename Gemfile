@@ -60,9 +60,4 @@ gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
 gem 'rails_12factor', group: :production
 
-group :production, :staging do 
-	gem 'pg'
-	gem 'rails_12factor'
-end
-
 ruby "2.4.0"
