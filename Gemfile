@@ -59,5 +59,6 @@ gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
 gem 'rails_12factor', group: :production
+gem 'rails-assets-tether'
 
 ruby "2.4.0"

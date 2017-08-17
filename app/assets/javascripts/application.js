@@ -13,7 +13,9 @@
 //= require jquery3
 //= require bootstrap-sprockets
 //= require rails-ujs
+//= require jquery-ujs
 //= require jquery-ui
+//= require tether
 //= require html.sortable
 //= require cocoon
 //= require gritter
