@@ -11,9 +11,9 @@
 // about supported directives.
 //
 //= require jquery3
-//= require bootstrap-sprockets
 //= require rails-ujs
 //= require jquery-ui
+//= require bootstrap-sprockets
 //= require tether
 //= require html.sortable
 //= require cocoon

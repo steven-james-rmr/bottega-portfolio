@@ -1,11 +1,19 @@
 @import "bootstrap";
 @import "jquery-ui";
 @import "gritter";
+@import "font-awesome";
 
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
 }
 
+#navbarHeader {
+  background-color: black;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
 .navbar {
   margin-bottom: 0;
 }
@@ -14,7 +22,6 @@ body {
   padding-top: 6rem;
   padding-bottom: 6rem;
   margin-bottom: 0;
-  background-color: #fff;
 }
 
 .jumbotron p:last-child {
@@ -61,13 +68,8 @@ footer p {
   margin-bottom: .25rem;
 }
 
-/*Custom styles*/
+/* Custom Styles */
 
 .portfolio-container {
- padding-top: 100px;
-
-}
-
-.text-muted {
-  font-size: 25px;
+  padding-top: 30px;
 }
